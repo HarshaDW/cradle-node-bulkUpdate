@@ -1,0 +1,19 @@
+{
+  "name": "paymentstatusupdate",
+  "version": "2.0.1",
+  "description": "Tool to mark tickets with payment object transaction id from null to transid and Mark payment Status as captured",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HarshaDWijendra",
+  "license": "ISC",
+  "devDependencies": {
+    "excel-as-json": "^1.0.4"
+  },
+  "dependencies": {
+    "csv2json": "^1.2.0",
+    "csvjson": "^4.0.2",
+    "csvtojson": "^1.1.3"
+  }
+}
